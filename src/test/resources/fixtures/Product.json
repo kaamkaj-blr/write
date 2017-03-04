@@ -1,0 +1,13 @@
+{
+    "name" : "product",
+    "id" : "1",
+    "attributes" :{
+        "brand" : "brand",
+        "title" : "title",
+        "price" : 1000000
+    },
+    "created_at" : "2017-03-03T00:18:49+0530",
+    "updated_at" : "2017-03-03T00:18:49+0530",
+    "created_by" : "Amit",
+    "updated_by" : "Khandelwal"
+}
