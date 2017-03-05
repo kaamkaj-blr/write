@@ -52,10 +52,8 @@ public class ProductResource {
 		BaseResponse addResponse = new BaseResponse();
 		try {
 			Product dbProduct = productService.add(product);
-			if (dbProduct != null) {
-				addResponse.setOutput(dbProduct);
-				response = Response.status(201).entity(addResponse).build();
-			}
+			addResponse.setOutput(dbProduct);
+			response = Response.status(201).entity(addResponse).build();
 		} catch (Exception e) {
 			AppError error = new AppError(50002, e.getMessage());
 			addResponse.setError(error);

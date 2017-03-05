@@ -36,7 +36,7 @@ public class ProductDaoTest extends DaoTest {
 	@Test
 	public void createProduct() {
 		Product product = productDao.findById("1");
-		assertThat(product.getName()=="name").isEqualTo(true);
+		assertThat(product.getName().equals("name")).isEqualTo(true);
 	}
 
 	@Test
