@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+restbest.iml
+target/
+api/api.iml
+api/restbest-api.iml
+app/app.iml
+app/restbest-app.iml
+client/client.iml
+client/restbest-client.iml
+
+
