@@ -9,7 +9,6 @@
     <artifactId>restbest</artifactId>
     <packaging>pom</packaging>
     <version>1.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
 
     <name>restbest</name>
 
