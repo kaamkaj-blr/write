@@ -37,7 +37,11 @@
 			<artifactId>restbest-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>
-
+		<dependency>
+			<groupId>com.kaamkaj</groupId>
+			<artifactId>aws-clients</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>io.dropwizard</groupId>
 			<artifactId>dropwizard-core</artifactId>
